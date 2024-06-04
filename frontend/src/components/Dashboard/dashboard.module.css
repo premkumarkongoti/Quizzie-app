@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  height: 99.99vh;
+  display: flex;
+
+}
+
+.navbarContainer {
+  flex: 20%;
+}
+
+.content {
+  flex: 80%;
+  
+  background-color: #ededed;
+}
+.modals {
+  position: fixed;
+  top: 0px;
+  height: 99.93%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.81);
+  
+}
